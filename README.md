@@ -11,3 +11,5 @@ To train the model on a single node with 8 gpus for 300 epochs run:
 ```
 python -m torch.distributed.launch --nproc_per_node=8 --use_env main.py
 ```
+## Acknowledgement
+We would like to thank the [DETR](https://github.com/facebookresearch/detr) open-source project for its awesome work, part of the code are modified from its project.
